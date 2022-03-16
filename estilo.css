@@ -47,7 +47,7 @@ body {
   font-size: 1rem;
 }
 header:hover {
-  transform: rotateY(70deg);
+  transform: rotateY(80deg);
 }
 li:hover {
   transform: translate(10px, 20px);
@@ -118,21 +118,6 @@ table {
     margin: 0;
   }
   .ul {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .section {
-    display: flex;
-    flex-direction: wrap;
-    font-size: 0.5;
-    margin: 0;
-    text-align: left;
-  }
-  .iframe {
-    width: fit-content;
-  }
-  .footer {
     display: flex;
     flex-wrap: wrap;
   }
